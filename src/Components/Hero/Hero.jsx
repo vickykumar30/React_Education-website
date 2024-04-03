@@ -1,0 +1,17 @@
+import React from 'react'
+import './Hero.css'
+
+const Hero = () => {
+  return (
+    <div className='hero container'>
+        <div className="hero-text">
+            <h1>We Ensure better education for a better world</h1>
+            <p>Education is a discipline that is concerned with methods of teaching and learning in schools or school-like environments and Education is a powerful driver of development.</p>
+            <button className='btn'>Explore more</button>
+        </div>
+      
+    </div>
+  )
+}
+
+export default Hero
